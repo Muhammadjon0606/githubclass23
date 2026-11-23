@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    display: flex;
+    background-color:#FF4029;
+    justify-content: space-between;
+}
+.a1{
+    width:70px;
+    height:40px;
+    margin-top:10px;
+    margin-left:180px;
+}
+.a2{
+    display: flex;
+    color:white;
+    margin-left:400px;
+}
+.a3{
+    margin-top:22px;
+    margin-left:50px;
+}
+.a4{
+    display: flex;
+    margin-right:200px;
+}
