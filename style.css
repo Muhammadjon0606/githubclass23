@@ -150,7 +150,7 @@
     align-items: center;
     gap: 25px;
     padding: 50px 80px;
-    background-color: #f9f6f2;
+    background-image: #5c412e;
 }
 
 .b1 {
@@ -179,6 +179,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border:2px solid grey;
 }
 
 .b4 {
@@ -216,16 +217,21 @@
     align-items: center;
 }
 
+.b08{
+    background-color:#FEC61F;
+    border-radius:50%;
+}
+
 .b9 {
     position: absolute;
     top: -15px;
     right: -10px;
-    width: 38px;
+    width: 60px;
     z-index: 3;
 }
 
 .b10 {
-    width: 125px;
+    width: 200px;
 }
 
 .b11 {
@@ -278,6 +284,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border:1px solid grey;
 }
 
 .b17 {
