@@ -1,28 +1,143 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
-.a{
+
+.a {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: #e41e26;
+    padding-top: 30px;
+    color: white;
+}
+
+.a1 {
     display: flex;
-    background-color:#FF4029;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 50px;
 }
-.a1{
-    width:70px;
-    height:40px;
-    margin-top:10px;
-    margin-left:180px;
+
+.a2 {
+    width: 90px;
 }
-.a2{
+
+.a3 {
     display: flex;
-    color:white;
-    margin-left:400px;
+    align-items: center;
+    gap: 30px;
 }
-.a3{
-    margin-top:22px;
-    margin-left:50px;
+
+.a4 {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
 }
-.a4{
+
+.a5 {
     display: flex;
-    margin-right:200px;
+    gap: 15px;
+}
+
+.a5 img {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.a6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.a7 {
+    width: 480px;
+}
+
+.a8 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.a9 {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.a10 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.a11 {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.a12 {
+    width: 400px;
+}
+
+.a14 {
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+    background-color: #fdb913;
+    color: white;
+    padding: 8px 40px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.a15 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 80px;
+    background-color: #ffffff;
+}
+
+.a16 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    padding: 10px;
+}
+
+.a17 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.a18 {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 10px;
+}
+
+.a19, .a20 {
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
 }
